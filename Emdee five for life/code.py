@@ -1,6 +1,6 @@
-import requests                 # to establish a connection with the website
-from bs4 import BeautifulSoup	  # to get the text value from the HTML code
-import hashlib				          # to get the md5 hash value of the text
+import requests                         # to establish a connection with the website
+from bs4 import BeautifulSoup	          # to get the text value from the HTML code
+import hashlib				                  # to get the md5 hash value of the text
 
 url = 'http://docker.hackthebox.eu:30312/'      # this is the url of the website
 
